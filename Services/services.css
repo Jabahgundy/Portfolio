@@ -1,0 +1,54 @@
+/* Body Element */
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/brightideapic.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+}
+/* End of Body Element */
+
+/* Title */
+.services h1{
+    margin: 90px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    
+}
+
+h1:after{
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    height: 4px;
+    margin: auto;
+}
+
+/* End of Title */
+
+/* ICONS */
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 50px;
+    width: 40x;
+   
+}
+
+/* box shadowing */
+.col-md-3:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+    cursor: pointer;
+}

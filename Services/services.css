@@ -4,13 +4,66 @@ body{
     background-size: cover;
     background-position: center;
     color: #fff !important;
+    font-family:'Times New Roman', Times, serif
 }
 
+a{
+    text-decoration: none;
+}
 .container{
     position: relative;
     top: 100px;
 }
 /* End of Body Element */
+
+
+/* Header */
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+img{
+    border: 2px solid whitesmoke;
+    border-radius: 100px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+}
+.nav-area li a:hover{
+    color: goldenrod;
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px; 
+    border-radius: 50px;
+    background: #000;
+}
+
+/* End of Header */
+
+
 
 /* Title */
 .services h1{
@@ -26,14 +79,14 @@ h1{
     
 }
 
-h1:after{
+/* h1:after{
     content: '';
     background: white;
     display: block;
     width: 150px;
     height: 4px;
     margin: auto;
-}
+} */
 
 /* End of Title */
 

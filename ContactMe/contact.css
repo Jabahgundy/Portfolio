@@ -1,0 +1,88 @@
+/* Page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* End of Page */
+
+body{
+    background-image: url(../images/servicepic1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Image  */
+img{
+    border: 2px solid;
+    border-radius: 100px;
+    position: absolute;
+    left: 50px;
+    top: 50px; 
+}
+.logo{
+    cursor: pointer;
+}
+/* End of Image */
+
+/* Contact Section */
+section.contact{
+    position: relative;
+    left: 28%;
+    top: 25%;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    font-size: 40px;
+    top: -39%;
+    right: 75%
+
+}
+/* .border{
+    width: 10px;
+    height: 10px;
+    background: rgb(2, 36, 75);
+    margin: 40px auto;
+} */
+.contactForm{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    /* add positioning */
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-button{
+    float: right;
+    border: 0;
+    background: rgb(2, 36, 75);
+    color: whitesmoke;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-button:hover{
+    background: rgb(99, 122, 224);
+}

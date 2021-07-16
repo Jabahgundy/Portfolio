@@ -1,10 +1,15 @@
+/* Page */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0
 }
+/* Page End */
+
+/* Body */
+
 body{
-    background-image: url(..//images/atlantacityV2.jpg);
+    background-image: url(..//images/project1.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -16,6 +21,7 @@ body{
 a{
     text-decoration: none;
 }
+/* End of Body */
 
 /* Header */
 header{
@@ -48,7 +54,7 @@ img{
     color: #fff;
 }
 .nav-area li a:hover{
-    color: goldenrod;
+    color: rgb(53, 53, 104);
 }
 .btn-area{
     cursor: pointer;

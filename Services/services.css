@@ -48,7 +48,7 @@ img{
     color: #fff;
 }
 .nav-area li a:hover{
-    color: goldenrod;
+    color: rgb(167, 161, 161);
 }
 .btn-area{
     cursor: pointer;

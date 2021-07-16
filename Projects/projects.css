@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0
+    
 }
 /* Page End */
 
@@ -68,3 +69,99 @@ img{
 }
 
 /* End of Header */
+
+/* Card CSS */
+.container
+{
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card
+{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: whitesmoke;
+    opacity: 1.5em;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgb(0,0,0,0.2)
+}
+
+.container:hover .card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+.container .card .circle
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* image-rendering: auto;
+    background-image: url(../images/pic3.jpg); */
+    clip-path: square(100px at center 0);
+    text-align: center;
+}
+.container .card .circle h2
+{
+    color: #fff;
+    font-size: 4.5;
+}
+
+.container .card .content
+{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.container .card .content p
+{
+    color: grey;
+}
+.container .card .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.container .card:nth-child(1) .circle,
+.container .card:nth-child(1) .content a{
+    /* image-rendering: auto;
+    background-image: url(../images/pic3.jpg); */
+    background: rgb(34, 34, 54);
+}
+.container .card:nth-child(2) .circle,
+.container .card:nth-child(2) .content a{
+    /* image-rendering: auto;
+    background-image: url(../images/head1.5.jpg); */
+    background: rgb(34, 34, 54);
+}
+.container .card:nth-child(3) .circle,
+.container .card:nth-child(3) .content a{
+    /* background-size: 30%;
+    background-position: center;
+    background-image: url(../images/logo2.jpg); */
+    background: rgb(34, 34, 54);
+}
+
+/* END of Card CSS */

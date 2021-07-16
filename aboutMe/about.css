@@ -1,0 +1,70 @@
+/* Page */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+/* Page End */
+/* Body */
+
+body{
+    background-image: url(../images/thankyou.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+/* End of Body */
+/* Header */
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+img{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+}
+.nav-area li a:hover{
+    color: rgb(53, 53, 104);
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px; 
+    border-radius: 50px;
+    background: #000;
+}
+
+/* End of Header */
+
+/* About me Content */

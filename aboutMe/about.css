@@ -8,7 +8,7 @@
 /* Body */
 
 body{
-    background-image: url(../images/thankyou.jpg);
+    background-image: url(../images/city1.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -31,8 +31,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 70px;
+    
 }
-img{
+header img{
     border: 2px solid;
     border-radius: 100px;
 }
@@ -68,3 +69,39 @@ img{
 /* End of Header */
 
 /* About me Content */
+
+.about_area{
+    padding-top: 10%
+}
+
+.about_img{
+    position: absolute;
+    top: -137px;  
+    right: 64px;  
+}
+.about_img img{
+    width: 100%;
+    height: 10%;
+    border-radius: 30%;
+    border: solid whitesmoke;
+}
+#text{
+    padding-top: 20%;
+    position: absolute;
+    top: 85px;
+    right: 2%;
+}
+#text h2{
+    color: whitesmoke;
+    font-family: lobster;
+    font-size: 35px;
+}
+#text p{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#text a{
+    background: red
+}
+/* End of About me Content */
